@@ -29,5 +29,5 @@ class Die(object):
 d = Die()
 d1 = Die()
 d.set_sides(4)
-d1.set_sides(4)
+d1.set_sides(4) #to make all sides equal
 print (d.roll(), d1.roll())
